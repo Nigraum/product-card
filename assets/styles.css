@@ -1,3 +1,11 @@
+:root {
+  --cream: hsl(30, 38%, 92%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --grey-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +13,7 @@
 }
 
 body {
-  background-color: #f2ebe3;
+  background-color: var(--cream);
 }
 
 .attribution {
