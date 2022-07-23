@@ -13,6 +13,11 @@
 }
 
 body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: var(--cream);
 }
 
