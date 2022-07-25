@@ -23,6 +23,8 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: var(--cream);
+  min-height: calc(100vh - 0.1px);
+  margin: 0 1.5rem;
 }
 
 button, li {
@@ -45,6 +47,16 @@ p {
   line-height: 1.8;
 }
 
+.container {
+  max-width: 500px;
+}
+
+.container article:last-child{
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
 .price {
   color: var(--dark-cyan);
 }
@@ -60,4 +72,8 @@ h1, .price {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+ul {
+  list-style: none;
 }
