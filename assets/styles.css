@@ -21,6 +21,10 @@ body {
   background-color: var(--cream);
 }
 
+h1, .price {
+  font-family: "Fraunces", sans-serif;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
