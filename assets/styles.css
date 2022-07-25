@@ -40,6 +40,7 @@ h2 {
   font-size: 1rem;
   font-weight: 500;
   color: var(--grey-blue);
+  margin-bottom: 1rem;
 }
 
 p {
@@ -59,6 +60,7 @@ p {
   background-color: white;
   padding: 1.5rem;
   border-radius: 0 0 1rem 1rem;
+  margin-top: -1rem;
 }
 
 .price {
