@@ -87,6 +87,25 @@ p {
   color: var(--grey-blue);
 }
 
+.container .cart {
+  background-color: var(--dark-cyan);
+  color: white;
+  font-weight: 700;
+  padding: 0.625rem 2rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.625rem;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .cart img {
+  margin-right: 0.5rem;
+}
+
 .price {
   color: var(--dark-cyan);
 }
