@@ -51,10 +51,14 @@ p {
   max-width: 500px;
 }
 
+.container article:first-child img{
+  border-radius: 1rem 1rem 0 0;
+}
+
 .container article:last-child{
   background-color: white;
   padding: 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .price {
